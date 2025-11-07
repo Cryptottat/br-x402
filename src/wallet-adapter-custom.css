@@ -1,0 +1,55 @@
+/* Wallet Adapter Modal 커스터마이징 */
+.wallet-adapter-modal-wrapper {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.wallet-adapter-modal {
+  background: #ffffff !important;
+  border: 6px solid #000000 !important;
+  border-radius: 0 !important;
+}
+
+.wallet-adapter-modal-title {
+  color: #000000 !important;
+  font-weight: 900 !important;
+  font-size: 2rem !important;
+  border-bottom: 4px solid #000000 !important;
+  padding-bottom: 1rem !important;
+}
+
+.wallet-adapter-modal-list {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.wallet-adapter-button {
+  background: #ffffff !important;
+  border: 4px solid #000000 !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
+  border-radius: 0 !important;
+  transition: all 0.3s ease !important;
+}
+
+.wallet-adapter-button:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+}
+
+.wallet-adapter-button:not([disabled]):hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+.wallet-adapter-modal-button-close {
+  background: #ffffff !important;
+  border: 4px solid #000000 !important;
+  color: #000000 !important;
+}
+
+.wallet-adapter-modal-button-close:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+

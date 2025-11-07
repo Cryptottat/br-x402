@@ -38,6 +38,7 @@ function Home() {
       </div>
 
       <div className="slogan-section">
+        <img src="/brx_tr.png" alt="BRX402" className="slogan-logo" />
         <h2 className="main-slogan">Value transfer should be effortless.</h2>
         <p className="sub-slogan">X402 payments should be as easy as drag and drop.</p>
       </div>

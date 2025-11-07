@@ -8,12 +8,13 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
+          <img src="/brx_tr.png" alt="BRX402" className="logo-image" />
           <span className="logo-text">BRX402</span>
         </Link>
         
         <nav className="nav">
           <a 
-            href="https://twitter.com" 
+            href="https://x.com/brx402" 
             target="_blank" 
             rel="noopener noreferrer"
             className="nav-link"

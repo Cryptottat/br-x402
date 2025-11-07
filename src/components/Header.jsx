@@ -21,6 +21,14 @@ function Header() {
           >
             X
           </a>
+          <a 
+            href="https://pump.fun/coin/AGfkVzj4wCZdanLrVDNZJCSQPeRC1jurGbnZkaVypump" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="nav-link"
+          >
+            PUMP
+          </a>
           <Link 
             to="/docs" 
             className={`nav-link ${location.pathname === '/docs' ? 'active' : ''}`}

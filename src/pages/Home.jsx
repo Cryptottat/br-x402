@@ -33,31 +33,27 @@ function Home() {
       <div className="content-wrapper">
         <div className={`hero-section ${isVisible ? 'visible' : ''}`}>
           <div className="hero-content">
-            <div className="slogan-section">
-              <h2 className="main-slogan">Value transfer should be effortless.</h2>
-              <p className="sub-slogan">X402 payments should be as easy as drag and drop.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="stats-section">
-          <div className="stat-item">
-            <div className="stat-value">$2.4B+</div>
-            <div className="stat-label">Total Value Locked</div>
-          </div>
-          <div className="stat-item">
-            <div className="stat-value">150K+</div>
-            <div className="stat-label">Active Users</div>
-          </div>
-          <div className="stat-item">
-            <div className="stat-value">&lt;0.01s</div>
-            <div className="stat-label">Avg Transaction Time</div>
           </div>
         </div>
       </div>
 
+      <div className="slogan-section">
+        <h2 className="main-slogan">Value transfer should be effortless.</h2>
+        <p className="sub-slogan">X402 payments should be as easy as drag and drop.</p>
+      </div>
+
       <div className="scroll-hint">
         <div className="scroll-line"></div>
+      </div>
+
+      {/* Geometric lines */}
+      <div className="geometric-lines">
+        <div className="vertical-line vertical-line-1"></div>
+        <div className="vertical-line vertical-line-2"></div>
+        <div className="vertical-line vertical-line-3"></div>
+        <div className="horizontal-line horizontal-line-1"></div>
+        <div className="horizontal-line horizontal-line-2"></div>
+        <div className="horizontal-line horizontal-line-3"></div>
       </div>
     </div>
   )

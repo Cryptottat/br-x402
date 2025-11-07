@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Quart';
+  src: url('/Quart-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .app-page {
   padding-top: 120px;
   min-height: 100vh;
@@ -20,6 +28,11 @@
   letter-spacing: -0.02em;
   opacity: 0;
   animation: fadeInUp 1s cubic-bezier(0.23, 1, 0.32, 1) 0.2s both;
+}
+
+.app-title .brand-name {
+  font-family: 'Quart', -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+  font-weight: normal;
 }
 
 @keyframes fadeInUp {
@@ -63,12 +76,20 @@
   letter-spacing: -0.01em;
 }
 
+.install-title .brand-name {
+  font-family: 'Quart', -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+  font-weight: normal;
+}
+
 .install-description {
   font-size: 1.1rem;
-  color: rgba(26, 26, 26, 0.6);
+  color: rgba(26, 26, 26, 0.7);
   margin-bottom: 3rem;
   line-height: 1.8;
   font-weight: 300;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .install-buttons {
@@ -101,9 +122,11 @@
 }
 
 .install-button:disabled:hover {
-  background: rgba(255, 107, 53, 0.05);
-  border-color: rgba(255, 107, 53, 0.2);
-  transform: none;
+  background: rgba(255, 107, 53, 0.08);
+  border-color: rgba(255, 107, 53, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.15);
+  opacity: 0.8;
 }
 
 .install-icon {

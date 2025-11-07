@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Quart';
+  src: url('/Quart-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .docs-page {
   display: flex;
   min-height: 100vh;
@@ -247,6 +255,12 @@
 .section-title:first-child {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   margin-bottom: 2.5rem;
+}
+
+.brand-name {
+  font-family: 'Quart', -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+  font-weight: normal;
+  color: #FF6B35;
 }
 
 .section-text {

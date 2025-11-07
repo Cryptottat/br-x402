@@ -20,21 +20,21 @@ function Docs() {
           id: 'overview',
           title: 'Overview',
           subChildren: [
-            { id: 'what-is-br-x402', title: 'What is BR X402?' },
+            { id: 'what-is-br-x402', title: 'What is BRX402?' },
           ]
         },
         {
           id: 'core-concepts',
           title: 'Core Concepts',
           subChildren: [
-            { id: 'br-x402-ecosystem', title: 'The BR X402 Ecosystem' },
+            { id: 'br-x402-ecosystem', title: 'The BRX402 Ecosystem' },
           ]
         },
         {
           id: 'getting-access',
           title: 'Getting Access',
           subChildren: [
-            { id: 'accessing-br-x402-tools', title: 'Accessing BR X402 Tools' },
+            { id: 'accessing-br-x402-tools', title: 'Accessing BRX402 Tools' },
           ]
         },
       ]
@@ -257,9 +257,9 @@ function Docs() {
               <h2 className="subsection-title">Overview</h2>
               
               <section id="what-is-br-x402" className="subsubsection">
-                <h3 className="subsubsection-title">What is BR X402?</h3>
+                <h3 className="subsubsection-title">What is <span className="brand-name">BRX402</span>?</h3>
                 <p className="section-text">
-                  BR X402 is a utility suite designed to abstract the complexity of the X402 protocol. 
+                  <span className="brand-name">BRX402</span> is a utility suite designed to abstract the complexity of the X402 protocol. 
                   It provides simple tools for users and powerful, simple-to-integrate APIs for developers, 
                   turning X402 into a seamless part of any web application.
                 </p>
@@ -270,7 +270,7 @@ function Docs() {
               <h2 className="subsection-title">Core Concepts</h2>
               
               <section id="br-x402-ecosystem" className="subsubsection">
-                <h3 className="subsubsection-title">The BR X402 Ecosystem</h3>
+                <h3 className="subsubsection-title">The <span className="brand-name">BRX402</span> Ecosystem</h3>
                 <p className="section-text">
                   The ecosystem consists of two main components:
                 </p>
@@ -289,9 +289,9 @@ function Docs() {
               <h2 className="subsection-title">Getting Access</h2>
               
               <section id="accessing-br-x402-tools" className="subsubsection">
-                <h3 className="subsubsection-title">Accessing BR X402 Tools</h3>
+                <h3 className="subsubsection-title">Accessing <span className="brand-name">BRX402</span> Tools</h3>
                 <p className="section-text">
-                  Access to the BR X402 Extension and API keys is currently managed via the BR X402 Dashboard. 
+                  Access to the <span className="brand-name">BRX402</span> Extension and API keys is currently managed via the <span className="brand-name">BRX402</span> Dashboard. 
                   Contact our team to get your account provisioned and generate your first API keys.
                 </p>
               </section>
@@ -307,7 +307,7 @@ function Docs() {
               <section id="introduction-to-extension" className="subsubsection">
                 <h3 className="subsubsection-title">Introduction to the Extension</h3>
                 <p className="section-text">
-                  The BR X402 Extension is a powerful browser add-on that acts as your primary X402 wallet and interaction tool. 
+                  The <span className="brand-name">BRX402</span> Extension is a powerful browser add-on that acts as your primary X402 wallet and interaction tool. 
                   It allows you to send payments, manage accounts, and generate payment links without leaving your current tab.
                 </p>
               </section>
@@ -319,7 +319,7 @@ function Docs() {
               <section id="generating-instant-payment-link" className="subsubsection">
                 <h3 className="subsubsection-title">Generating an Instant Payment Link</h3>
                 <ol className="feature-list">
-                  <li className="feature-list-item">Click the BR X402 icon in your browser toolbar.</li>
+                  <li className="feature-list-item">Click the <span className="brand-name">BRX402</span> icon in your browser toolbar.</li>
                   <li className="feature-list-item">Select the 'Receive' tab.</li>
                   <li className="feature-list-item">Enter the amount you wish to receive.</li>
                   <li className="feature-list-item">Click 'Generate Link'. The unique payment URL is immediately copied to your clipboard.</li>
@@ -333,7 +333,7 @@ function Docs() {
               <section id="using-drag-drop" className="subsubsection">
                 <h3 className="subsubsection-title">Using Drag & Drop</h3>
                 <p className="section-text">
-                  BR X402's most powerful feature.
+                  <span className="brand-name">BRX402</span>'s most powerful feature.
                 </p>
                 <p className="section-text">
                   <strong>To Pay:</strong> Drag any X402 address (x402_...) from a webpage and drop it onto the extension icon to open a pre-filled 'Send' popup.
@@ -381,7 +381,7 @@ function Docs() {
               <section id="sdk-quick-start" className="subsubsection">
                 <h3 className="subsubsection-title">SDK Quick Start</h3>
                 <p className="section-text">
-                  The BR X402 JavaScript SDK provides the simplest way to create front-end payment experiences. 
+                  The <span className="brand-name">BRX402</span> JavaScript SDK provides the simplest way to create front-end payment experiences. 
                   Once the SDK is loaded on your page, you can initialize it with your Public Key.
                 </p>
               </section>
@@ -431,15 +431,15 @@ x402.createPaymentButton({
                 <h3 className="subsubsection-title">Handling Webhook Events</h3>
                 <p className="section-text">
                   To receive real-time notifications for events (like a successful payment), you must configure a webhook endpoint 
-                  in your BR X402 Dashboard. Our server will send a POST request to your URL when an event occurs.
+                  in your <span className="brand-name">BRX402</span> Dashboard. Our server will send a POST request to your URL when an event occurs.
                 </p>
               </section>
 
               <section id="securing-webhook-endpoint" className="subsubsection">
                 <h3 className="subsubsection-title">Securing Your Webhook Endpoint</h3>
                 <p className="section-text">
-                  It is critical to verify that incoming webhooks are from BR X402. Every request includes a 
-                  <code className="code-inline">X-BRX402-Signature</code> header. You must verify this signature using your Webhook Signing Secret 
+                  It is critical to verify that incoming webhooks are from <span className="brand-name">BRX402</span>. Every request includes a 
+                  <code className="code-inline">X-<span className="brand-name">BRX402</span>-Signature</code> header. You must verify this signature using your Webhook Signing Secret 
                   to prevent spoofing. (Detailed signature verification guide...)
                 </p>
               </section>

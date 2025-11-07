@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'Quart';
+  src: url('/Quart-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NORD';
+  src: url('/NORD-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NORD-Thin';
+  src: url('/NORD-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
 .home {
   position: relative;
   min-height: 100vh;
@@ -161,8 +185,9 @@
 }
 
 .main-slogan {
+  font-family: 'NORD', -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
   font-size: clamp(2.5rem, 6vw, 5rem);
-  font-weight: 300;
+  font-weight: bold;
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: #1a1a1a;
@@ -170,8 +195,9 @@
 }
 
 .sub-slogan {
+  font-family: 'NORD-Thin', -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
   font-size: clamp(1rem, 1.5vw, 1.3rem);
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1.6;
   color: #FF6B35;
   margin: 0;

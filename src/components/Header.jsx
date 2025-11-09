@@ -34,7 +34,7 @@ function Header() {
             App
           </Link>
           <a 
-            href="https://bonk.fun/" 
+            href="https://bonk.fun/token/AmWk5Tdt76vetd4z1PjynEgTxQQ6ZctA8bnLojVJbonk" 
             target="_blank" 
             rel="noopener noreferrer"
             className="nav-link"

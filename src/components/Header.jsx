@@ -33,6 +33,14 @@ function Header() {
           >
             App
           </Link>
+          <a 
+            href="https://bonk.fun/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="nav-link"
+          >
+            $GTX
+          </a>
         </nav>
       </div>
     </header>

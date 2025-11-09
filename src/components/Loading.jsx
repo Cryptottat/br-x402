@@ -22,8 +22,10 @@ function Loading() {
     <div className="loading-container">
       <div className="loading-content">
         <div className="loading-title">
-          <span className="loading-char">B</span>
-          <span className="loading-char">R</span>
+          <span className="loading-char">G</span>
+          <span className="loading-char">A</span>
+          <span className="loading-char">T</span>
+          <span className="loading-char">E</span>
           <span className="loading-char">X</span>
           <span className="loading-char">4</span>
           <span className="loading-char">0</span>

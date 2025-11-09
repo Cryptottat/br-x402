@@ -9,13 +9,13 @@ function AppPage() {
   return (
     <div className="app-page">
       <div className="app-container">
-        <h1 className="app-title"><span className="brand-name">BRX402</span></h1>
+        <h1 className="app-title"><span className="brand-name">GATEX402</span></h1>
         
         <div className="install-section">
           <div className="install-card">
-            <h2 className="install-title">Get <span className="brand-name">BRX402</span></h2>
+            <h2 className="install-title">Get <span className="brand-name">GATEX402</span></h2>
             <p className="install-description">
-              <span className="brand-name">BRX402</span> is a utility suite designed to abstract the complexity of the X402 protocol. 
+              <span className="brand-name">GATEX402</span> is a utility suite designed to abstract the complexity of the X402 protocol. 
               It provides simple tools for users and powerful, simple-to-integrate APIs for developers, 
               turning X402 into a seamless part of any web application.
             </p>

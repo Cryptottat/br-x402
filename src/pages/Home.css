@@ -40,7 +40,7 @@
   width: 800px;
   height: 800px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 107, 53, 0.12) 0%, rgba(255, 140, 66, 0.08) 50%, transparent 70%);
+  background: radial-gradient(circle, rgba(34, 54, 133, 0.12) 0%, rgba(58, 91, 160, 0.08) 50%, transparent 70%);
   filter: blur(80px);
   top: calc(var(--mouse-y) - 400px);
   left: calc(var(--mouse-x) - 400px);
@@ -142,7 +142,7 @@
 }
 
 .title-line.highlight {
-  background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%);
+  background: linear-gradient(135deg, #223685 0%, #3A5BA0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -208,7 +208,7 @@
   font-size: clamp(1rem, 1.5vw, 1.3rem);
   font-weight: 100;
   line-height: 1.6;
-  color: #FF6B35;
+  color: #223685;
   margin: 0;
   margin-top: 1.5rem;
   letter-spacing: 0.01em;
@@ -306,7 +306,7 @@
 .scroll-line {
   width: 1px;
   height: 40px;
-  background: linear-gradient(180deg, rgba(255, 107, 53, 0.4) 0%, transparent 100%);
+  background: linear-gradient(180deg, rgba(34, 54, 133, 0.4) 0%, transparent 100%);
   animation: scrollPulse 2s cubic-bezier(0.23, 1, 0.32, 1) infinite;
 }
 
@@ -344,7 +344,7 @@
 .vertical-line {
   position: absolute;
   width: 1px;
-  background: linear-gradient(180deg, transparent 0%, rgba(255, 107, 53, 0.15) 20%, rgba(255, 107, 53, 0.15) 80%, transparent 100%);
+  background: linear-gradient(180deg, transparent 0%, rgba(34, 54, 133, 0.15) 20%, rgba(34, 54, 133, 0.15) 80%, transparent 100%);
   top: 0;
   bottom: 0;
 }
@@ -356,7 +356,7 @@
 
 .vertical-line-2 {
   left: 50%;
-  background: linear-gradient(180deg, transparent 0%, rgba(255, 107, 53, 0.2) 30%, rgba(255, 107, 53, 0.2) 70%, transparent 100%);
+  background: linear-gradient(180deg, transparent 0%, rgba(34, 54, 133, 0.2) 30%, rgba(34, 54, 133, 0.2) 70%, transparent 100%);
   animation: lineFadeIn 2s cubic-bezier(0.23, 1, 0.32, 1) 0.7s both;
 }
 
@@ -368,7 +368,7 @@
 .horizontal-line {
   position: absolute;
   height: 1px;
-  background: linear-gradient(90deg, transparent 0%, rgba(255, 107, 53, 0.15) 20%, rgba(255, 107, 53, 0.15) 80%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, rgba(34, 54, 133, 0.15) 20%, rgba(34, 54, 133, 0.15) 80%, transparent 100%);
   left: 0;
   right: 0;
 }
@@ -380,7 +380,7 @@
 
 .horizontal-line-2 {
   top: 50%;
-  background: linear-gradient(90deg, transparent 0%, rgba(255, 107, 53, 0.2) 30%, rgba(255, 107, 53, 0.2) 70%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, rgba(34, 54, 133, 0.2) 30%, rgba(34, 54, 133, 0.2) 70%, transparent 100%);
   animation: lineFadeIn 2s cubic-bezier(0.23, 1, 0.32, 1) 0.8s both;
 }
 

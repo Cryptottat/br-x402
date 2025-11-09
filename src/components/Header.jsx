@@ -8,26 +8,18 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
-          <img src="/brx_tr.png" alt="BRX402" className="logo-image" />
-          <span className="logo-text">BRX402</span>
+          <img src="/gtx_tr.png" alt="GATEX402" className="logo-image" />
+          <span className="logo-text">GATEX402</span>
         </Link>
         
         <nav className="nav">
           <a 
-            href="https://x.com/brx402" 
+            href="https://x.com/gate_x402" 
             target="_blank" 
             rel="noopener noreferrer"
             className="nav-link"
           >
             X
-          </a>
-          <a 
-            href="https://pump.fun/coin/AGfkVzj4wCZdanLrVDNZJCSQPeRC1jurGbnZkaVypump" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="nav-link"
-          >
-            PUMP
           </a>
           <Link 
             to="/docs" 

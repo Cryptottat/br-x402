@@ -13,7 +13,7 @@
   right: 0;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px) saturate(180%);
-  border-bottom: 1px solid rgba(255, 107, 53, 0.2);
+  border-bottom: 1px solid rgba(34, 54, 133, 0.2);
   z-index: 1000;
   padding: 0;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
@@ -61,12 +61,12 @@
   left: 0;
   width: 0;
   height: 1px;
-  background: #FF6B35;
+  background: #223685;
   transition: width 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .logo:hover .logo-text {
-  color: #FF6B35;
+  color: #223685;
 }
 
 .logo:hover .logo-image {
@@ -103,12 +103,12 @@
   left: 0;
   width: 0;
   height: 1px;
-  background: #FF6B35;
+  background: #223685;
   transition: width 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .nav-link:hover {
-  color: #FF6B35;
+  color: #223685;
   transform: translateY(-1px);
 }
 
@@ -117,7 +117,7 @@
 }
 
 .nav-link.active {
-  color: #FF6B35;
+  color: #223685;
 }
 
 .nav-link.active::after {

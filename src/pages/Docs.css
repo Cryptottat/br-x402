@@ -22,7 +22,7 @@
   height: calc(100vh - 80px);
   background: rgba(255, 255, 255, 0.98);
   backdrop-filter: blur(20px);
-  border-right: 1px solid rgba(255, 107, 53, 0.15);
+  border-right: 1px solid rgba(34, 54, 133, 0.15);
   padding: 2rem 0;
   overflow-y: auto;
   z-index: 100;
@@ -33,7 +33,7 @@
 .sidebar-header {
   display: none;
   padding: 1.5rem 2rem;
-  border-bottom: 1px solid rgba(255, 107, 53, 0.15);
+  border-bottom: 1px solid rgba(34, 54, 133, 0.15);
   justify-content: space-between;
   align-items: center;
 }
@@ -62,7 +62,7 @@
 }
 
 .mobile-close-btn:hover {
-  color: #FF6B35;
+  color: #223685;
 }
 
 .sidebar-nav {
@@ -73,7 +73,7 @@
 }
 
 .nav-section {
-  border-bottom: 1px solid rgba(255, 107, 53, 0.08);
+  border-bottom: 1px solid rgba(34, 54, 133, 0.08);
 }
 
 .nav-section-title {
@@ -95,8 +95,8 @@
 }
 
 .nav-section-title:hover {
-  background: rgba(255, 107, 53, 0.05);
-  color: #FF6B35;
+  background: rgba(34, 54, 133, 0.05);
+  color: #223685;
 }
 
 .nav-arrow {
@@ -113,7 +113,7 @@
   display: flex;
   flex-direction: column;
   padding: 0.5rem 0;
-  background: rgba(255, 107, 53, 0.03);
+  background: rgba(34, 54, 133, 0.03);
 }
 
 .nav-child-group {
@@ -152,7 +152,7 @@
   transform: translateY(-50%);
   width: 2px;
   height: 0;
-  background: #FF6B35;
+  background: #223685;
   transition: height 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -165,13 +165,13 @@
 }
 
 .nav-item:hover {
-  color: #FF6B35;
-  background: rgba(255, 107, 53, 0.05);
+  color: #223685;
+  background: rgba(34, 54, 133, 0.05);
 }
 
 .nav-item.active {
-  color: #FF6B35;
-  background: rgba(255, 107, 53, 0.08);
+  color: #223685;
+  background: rgba(34, 54, 133, 0.08);
 }
 
 .nav-item.active::before {
@@ -198,9 +198,9 @@
   top: 100px;
   left: 2rem;
   z-index: 200;
-  background: rgba(255, 107, 53, 0.1);
-  border: 1px solid rgba(255, 107, 53, 0.2);
-  color: #FF6B35;
+  background: rgba(34, 54, 133, 0.1);
+  border: 1px solid rgba(34, 54, 133, 0.2);
+  color: #223685;
   font-size: 1.5rem;
   padding: 0.75rem 1rem;
   cursor: pointer;
@@ -209,7 +209,7 @@
 }
 
 .mobile-menu-btn:hover {
-  background: rgba(255, 107, 53, 0.15);
+  background: rgba(34, 54, 133, 0.15);
 }
 
 .docs-content {
@@ -249,7 +249,7 @@
   margin-bottom: 2rem;
   color: #1a1a1a;
   padding-bottom: 1rem;
-  border-bottom: 1px solid rgba(255, 107, 53, 0.2);
+  border-bottom: 1px solid rgba(34, 54, 133, 0.2);
 }
 
 .section-title:first-child {
@@ -260,7 +260,7 @@
 .brand-name {
   font-family: 'Quart', -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
   font-weight: normal;
-  color: #FF6B35;
+  color: #223685;
 }
 
 .section-text {
@@ -278,8 +278,8 @@
 }
 
 .utility-card {
-  background: rgba(255, 107, 53, 0.03);
-  border: 1px solid rgba(255, 107, 53, 0.15);
+  background: rgba(34, 54, 133, 0.03);
+  border: 1px solid rgba(34, 54, 133, 0.15);
   padding: 2.5rem;
   margin-bottom: 2rem;
   backdrop-filter: blur(10px);
@@ -287,8 +287,8 @@
 }
 
 .utility-card:hover {
-  background: rgba(255, 107, 53, 0.06);
-  border-color: rgba(255, 107, 53, 0.25);
+  background: rgba(34, 54, 133, 0.06);
+  border-color: rgba(34, 54, 133, 0.25);
   transform: translateY(-2px);
 }
 
@@ -329,7 +329,7 @@
 
 .utility-relation {
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 107, 53, 0.15);
+  border-top: 1px solid rgba(34, 54, 133, 0.15);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -394,16 +394,16 @@
 }
 
 .architecture-item {
-  background: rgba(255, 107, 53, 0.03);
-  border: 1px solid rgba(255, 107, 53, 0.15);
+  background: rgba(34, 54, 133, 0.03);
+  border: 1px solid rgba(34, 54, 133, 0.15);
   padding: 2rem;
   backdrop-filter: blur(10px);
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .architecture-item:hover {
-  background: rgba(255, 107, 53, 0.06);
-  border-color: rgba(255, 107, 53, 0.25);
+  background: rgba(34, 54, 133, 0.06);
+  border-color: rgba(34, 54, 133, 0.25);
 }
 
 .architecture-title {
@@ -502,7 +502,7 @@
   margin: 3rem 0 1.5rem 0;
   color: #1a1a1a;
   padding-top: 2rem;
-  border-top: 1px solid rgba(255, 107, 53, 0.2);
+  border-top: 1px solid rgba(34, 54, 133, 0.2);
 }
 
 .subsubsection {
@@ -529,8 +529,8 @@
 }
 
 .code-block {
-  background: rgba(255, 107, 53, 0.05);
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  background: rgba(34, 54, 133, 0.05);
+  border: 1px solid rgba(34, 54, 133, 0.2);
   border-radius: 4px;
   padding: 1.5rem;
   margin: 1.5rem 0;
@@ -549,12 +549,12 @@
 }
 
 .code-inline {
-  background: rgba(255, 107, 53, 0.1);
+  background: rgba(34, 54, 133, 0.1);
   padding: 0.2em 0.4em;
   border-radius: 3px;
   font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
   font-size: 0.9em;
-  color: #FF6B35;
+  color: #223685;
 }
 
 .table-wrapper {
@@ -565,12 +565,12 @@
 .api-table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid rgba(255, 107, 53, 0.2);
-  background: rgba(255, 107, 53, 0.03);
+  border: 1px solid rgba(34, 54, 133, 0.2);
+  background: rgba(34, 54, 133, 0.03);
 }
 
 .api-table thead {
-  background: rgba(255, 107, 53, 0.08);
+  background: rgba(34, 54, 133, 0.08);
 }
 
 .api-table th {
@@ -579,20 +579,20 @@
   font-weight: 400;
   font-size: 0.9rem;
   color: #1a1a1a;
-  border-bottom: 1px solid rgba(255, 107, 53, 0.2);
+  border-bottom: 1px solid rgba(34, 54, 133, 0.2);
   letter-spacing: 0.01em;
 }
 
 .api-table td {
   padding: 1rem;
-  border-bottom: 1px solid rgba(255, 107, 53, 0.1);
+  border-bottom: 1px solid rgba(34, 54, 133, 0.1);
   color: rgba(26, 26, 26, 0.7);
   font-size: 0.95rem;
   font-weight: 300;
 }
 
 .api-table tbody tr:hover {
-  background: rgba(255, 107, 53, 0.05);
+  background: rgba(34, 54, 133, 0.05);
 }
 
 .api-table tbody tr:last-child td {
@@ -600,8 +600,8 @@
 }
 
 .quote-box {
-  background: rgba(255, 107, 53, 0.05);
-  border-left: 3px solid #FF6B35;
+  background: rgba(34, 54, 133, 0.05);
+  border-left: 3px solid #223685;
   padding: 1.5rem 2rem;
   margin: 2rem 0;
 }
@@ -617,9 +617,9 @@
 }
 
 .note-box {
-  background: rgba(255, 107, 53, 0.05);
-  border: 1px solid rgba(255, 107, 53, 0.2);
-  border-left: 3px solid #FF6B35;
+  background: rgba(34, 54, 133, 0.05);
+  border: 1px solid rgba(34, 54, 133, 0.2);
+  border-left: 3px solid #223685;
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 4px;
@@ -677,7 +677,7 @@ ol.feature-list .feature-list-item::before {
   content: counter(list-counter) '.';
   position: absolute;
   left: 0;
-  color: #FF6B35;
+  color: #223685;
   font-size: 1rem;
   font-weight: 400;
 }
@@ -686,7 +686,7 @@ ul.feature-list .feature-list-item::before {
   content: '•';
   position: absolute;
   left: 0;
-  color: #FF6B35;
+  color: #223685;
   font-size: 1.2rem;
 }
 
